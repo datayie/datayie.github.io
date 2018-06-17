@@ -1,171 +1,80 @@
-title: 数据杂货铺
-name: Your Name
-email: your-email@example.com
-<<<<<<< HEAD
-description: 小铺里有希望对各位有帮助，小铺里没有的欢迎各位来丰富
+# Site settings 配置站点
+title: '数据杂货铺'
+description: '小铺里有的希望对各位有帮助，小铺里没有的欢迎各位来丰富'
+keyword: '一个经历了传统行业，互联网行业的数据搬砖工程师'
+url: '' # your host
 
-=======
-description: 小铺里有的希望对各位有帮助，小铺里没有的欢迎各位来丰富
-baseurl: "/blog"
-url: ""
+# if you don't need baseurl, you should leave this value blank.
+baseurl: ''
 
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
+# Navigation links
+nav:
+  home: '/'
+  tags: '/tags.html'
 
-#project_one: "First Project"
-#project_one_description: Describe your project!
-#project_one_url: https://github.com/jameshamann/jekyll-material-theme
-#project_one_icon: location_on
+# Footer
+footer:
+  since: 2017
 
-#project_two: Second Project
-#project_two_description: Describe your project!
-#project_two_url: https://github.com/jameshamann/jekyll-material-theme
-#project_two_icon: photo_camera
+# Author 配置博主信息
+author: ''
+nickname: ''
+bio: ''
+avatar: '/assets/img/profile.png'
 
+# Search
+search: true
 
-#project_three: Third Project
-#project_three_description: Describe your project!
-#project_three_url: https://github.com/jameshamann/jekyll-material-theme
-#project_three_icon: hotel
+# Night mode
+nightMode: true
 
+# Comments 评论功能
+comments:
+  disqus: false
+  disqus_url: ''
 
-#project_four: Fourth Project
-#project_four_description: Describe your project!
-#project_four_url: https://github.com/jameshamann/jekyll-material-theme
-portfolio_heading: Portfolio
-portfolio_type: cards
+# MathJax 公式支持 by Ray-Eldath
+mathjax: true
 
-syntax_highlighting: true
-# Skill icons from https://konpa.github.io/devicon/
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 
-skills:
-  - name: amazonwebservices
-  - name: android
-  - name: angularjs
-  - name: apache
-  - name: appcelerator
-  - name: apple
-  - name: atom
-  - name: babel
-  - name: backbonejs
-  - name: bitbucket
-  - name: bootstrap
-  - name: bower
-  - name: c
-  - name: chrome
-  - name: codeigniter
-  - name: coffescript
-  - name: confluence
-  - name: cplusplus
-  - name: csharp
-  - name: css3
-  - name: cucumber
-  - name: d3js
-  - name: debian
-  - name: devicon
-  - name: django
-  - name: docker
-  - name: doctrine
-  - name: dot-net
-  - name: drupal
-  - name: erlang
-  - name: facebook
-  - name: firefox
-  - name: foundation
-  - name: gatling
-  - name: gimp
-  - name: git
-  - name: github
-  - name: gitlab
-  - name: go
-  - name: google
-  - name: gradle
-  - name: grunt
-  - name: gulp
-  - name: heroku
-  - name: html5
-  - name: ie10
-  - name: illustrator
-  - name: inkscape
-  - name: itellij
-  - name: java
-  - name: jasmine
-  - name: javascript
-  - name: laravel
-  - name: less
-  - name: linux
-  - name: meteor
-  - name: mocha
-  - name: mongodb
-  - name: moodle
-  - name: mysql
-  - name: nginx
-  - name: nodejs
-  - name: nodewebkit
-  - name: oracle
-  - name: photoshop
-  - name: php
-  - name: phpstorm
-  - name: protractor
-  - name: postgresql
-  - name: python
-  - name: pycharm
-  - name: rails
-  - name: react
-  - name: redhat
-  - name: redis
-  - name: ruby
-  - name: rubymine
-  - name: safari
-  - name: sass
-  - name: sequelize
-  - name: slack
-  - name: sourcetree
-  - name: ssh
-  - name: swift
-  - name: symfony
-  - name: tomcat
-  - name: travis
-  - name: trello
-  - name: twitter
-  - name: typescript
-  - name: ubuntu
-  - name: vim
-  - name: visualstudio
-  - name: vuejs
-  - name: webpack
-  - name: webstorm
-  - name: windows8
-  - name: wordpress
-  - name: yii
-  - name: zend
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
 
-icon_size: 50 # font-size of icons in px
-colored: colored # Leave blank for black and white icons
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'circuitBoard'
 
-project_button: Github
+# SNS settings 配置社交网站
+# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  weibo: '//weibo.com/lovecolcol'
+  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
+  instagram: '//www.instagram.com/steveliaocn'
+  github: '//github.com/kaeyleo'
 
-github: https://github.com/jameshamann/jekyll-material-theme
-medium: https://medium.com
-
-baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
-url: http://localhost:4000/ #the url of your site
-
-# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
-tag_manager_id: # This looks something like GTM-XXXXXXX
-google_analytics_tracking_id: # This looks something like UA-000000000-0 Head over to https://analytics.google.com/ to setup.
-
-cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
-
-cookie_accept_message: Thanks!
-
-syntax_highlighting: true # include the css for syntax highlighting
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
+paginate: 6
+paginate_path: 'page:num'
+exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
+
+# Markdown
 markdown: kramdown
-# theme: minima
-permalink: pretty
-plugins:
-  - jekyll-feed
-  - jekyll-assets
-  - jekyll-minifier
+highlighter: rouge
+kramdown:
+  input: GFM
+
+# RSS
+RSS: false
+
+# Permalink
+# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
+permalink: /:year/:month/:day/:title.html
+
+# Plugins
+plugins: [jekyll-paginate]
